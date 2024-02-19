@@ -1,4 +1,4 @@
-package me.rbettarelli.coding.votacaoapi.Controller;
+package me.rbettarelli.coding.votacaoapi.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
