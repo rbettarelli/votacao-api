@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VotationMicrosserviceApplication<votation-microsservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "me.rbettarelli.votationmicrosservice.VotationMicrosserviceApplication",
+            "projectName": "votation-microsservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=49689 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=votation-microsservice"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-VotacaoApiApplication<votacao-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "me.rbettarelli.coding.votacaoapi.VotacaoApiApplication",
+            "projectName": "votacao-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
